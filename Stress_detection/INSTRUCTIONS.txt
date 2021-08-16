@@ -1,0 +1,19 @@
+Open anaconda prompt and type below given commands:
+
+>> conda create -n stress_detection python==3.6.7
+>> activate stress_detection
+
+Install below given packages:
+>> pip install opencv-python
+>> pip install opencv-contrib-python
+>> pip install Image
+>> pip install numpy
+>> pip install imutils
+>> pip install pandas
+>> conda install tensorflow keras 
+
+Run Register.py with the camera connected
+>> python Register.py
+
+#Use GUI to signup and train data before trying to sign in
+#Press the 'Q' key periodically to store current data in the Performance sheet
